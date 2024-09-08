@@ -1,0 +1,72 @@
+# Ignore Vosk models
+models/
+
+# Ignore config.json
+*.json
+
+# Do not ignore the configuration template
+!template
+
+# Ignore SLN file
+*.sln
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Ignore Rider / JetBrains project files
+.idea/
+*.sln.iml
+
+# Ignore Visual Studio Code workspace settings
+.vscode/
+
+# Ignore Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Rider specific settings
+.idea/
+
+# Ignore logs and debugging files
+*.log
+*.tlog
+*.pdb
+
+# Ignore crash reports and build logs
+crash-reports/
+hs_err_pid*
+.vscode/*
+.vscode/
+
+# Ignore test results
+TestResults/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore compiled libraries
+*.dll
+*.exe
+*.so
+*.dylib
+*.pyc
+*.class
+
+# Ignore published output (optional, add if publishing locally)
+publish/
